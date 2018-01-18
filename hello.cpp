@@ -3,9 +3,14 @@ using namespace std
 int main()
 {
 
-for(int i=0;i<9;i++)
+int arr[20],sum=0;
+cout<<"enter no of rows";
+cin>>n;
+for(int i=0;i<n;i++)
 {
-	cout<<i<<endl;
+
+	 sum=sum+arr[i];
+
 }
 return 0;
 }
